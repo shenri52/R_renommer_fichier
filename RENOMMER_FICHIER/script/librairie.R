@@ -7,3 +7,6 @@ library(svDialogs)
 
 # Manipuler les variables
 library(questionr)
+
+# Déplacer des fichiers
+library(filesstrings)
