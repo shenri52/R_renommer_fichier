@@ -7,6 +7,9 @@ Il propose de :
   * rechercher et supprimer un mot dans le nom
   * ajouter un mot au début du nom
   * ajouter un mot à la fin du nom
+  * renommer une liste de fichiers de 1 à X
+
+Renommer une liste de fichiers permet de renommer des fichiers situés dans plusieurs sous-répertoire d'un répertoire principal. Les fichiers seront renommés de 1 à X en respectant l'odre alphanumérique initial.
 
 ## Descriptif du contenu
 
@@ -19,6 +22,7 @@ Il propose de :
   * renommer_fin --> script permettant d'ajouter un mot à la fin du nom
   * renommer_mot --> script permettant de rechercher et remplacer un mot dans le nom
   * supprimer_mot --> script permettant de rechercher et supprimer un mot dans le nom
+  * renommer_liste_fichier.R --> script permettant renommer une liste de fichier
 
 ## Fonctionnement
 
