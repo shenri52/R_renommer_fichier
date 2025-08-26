@@ -11,15 +11,5 @@ while (is_empty(nouvelle_partie))
 # Préparation du nouveau nom
 nv_fichier$Fichier <- paste(nv_fichier$Fichier, nouvelle_partie, sep ="_")
 
-# Création du nouveau chemin
-nv_fichier <- nv_fichier %>%
-              mutate(Chemin = paste(Chemin, paste(Fichier, Extension, sep = "."), sep = "/")) %>%
-              select(-Fichier, -Extension)
-
-# Renommage des fichiers
-for (i in 1:count(nv_fichier)$n)
-{
-  file.rename(from = nv_fichier[i,1], to = nv_fichier[i,2])
-}
-
-
+# Renommer le ou les fichiers
+renommage()

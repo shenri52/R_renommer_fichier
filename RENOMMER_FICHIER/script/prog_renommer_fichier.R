@@ -17,6 +17,9 @@
 
 source("./script/librairie.R")
 
+#################### Charger fonction
+source("./script/f_renommage.R")
+
 #################### Lister le contenu du ou des dossier contenant les fichiers à renommer
 
 source("./script/lister_fichier.R")
